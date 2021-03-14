@@ -1,3 +1,3 @@
-def string(str1):
-    return str1[-1:]+str1[1:-1]+str1[:1]
-print(string('python'))
+a=input("enter a string:")
+s=a[-1]+a[1:-1]+a[0]
+print(s)
