@@ -19,7 +19,8 @@ if(s1==s2):
  print("sum of lists is same")
 else:
  print("the sum of lists is different")
+print("the common element in list is:")
 for i in list1:
  for j in list2:
   if i==j:
-   print("the common element in list is",i)
+    print(i)
